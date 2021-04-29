@@ -1,0 +1,28 @@
+{
+    "presets": [
+        "next/babel",
+        "@babel/preset-typescript"
+    ],
+    "plugins": [
+        [
+            "styled-components",
+            {
+                "ssr": true
+            }
+        ],
+        "babel-plugin-transform-typescript-metadata",
+        [
+            "@babel/plugin-proposal-decorators",
+            {
+                "legacy": true
+            }
+        ],
+        [
+            "@babel/plugin-proposal-class-properties",
+            {
+                "loose": true
+            }
+        ],
+        "babel-plugin-parameter-decorator"
+    ]
+}
