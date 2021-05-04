@@ -1,34 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Consumo de API Pokémon deasafio frontend
 
-## Getting Started
+O arquivo contido neste repositório foi uma tentativa de desenvolvimento de uma interface com o objectivo de apresentar nomes, tipos, e número de qualquer pokémon, onde o usuário poderia pesquisar, e filtrar, pelo menos, por nome e tipo de pokémon que pretende ver, ou capturar (guardar em sua area de usuário), infelizmente não pude terminar o projecto, tive dificuldades de consumir a API (coisa fácil para quem está praticando mais hhhh), porém deixei a interface para ir fazendo.
 
-First, run the development server:
+## Requisitos para uso
 
-```bash
-npm run dev
-# or
-yarn dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+* Deve ter instalado em sua máquina a versão mais estável do `Node Js` para te permitir instalar a versão mais recente do `Next Js`.
+* Caso já tenha tudo isso instalado em sua máquina: 
+1. Use o comando `$ git clone [url do repositório]`, ou pode usar `GitDesktop` que ele vai fazzer o download na sua pasta habitual;
+    * Certifique-se que tenhas um editor de códigos, **VSCODE**, **Bracket**, são meus preferidos, **Notepad ++** também dá muito certo.
+2. Estando em sua máquina, navegue até a pasta gerada pelo download, no windows `$ cd pasta`, é o padrão, *normalmente o nome será a frase que antecede a extensão .git, por exemplo: github/julino/compiteste.git, compiteste seria o nome da paste onte tem toda a aplicação*.
+3. Tendo feito isto, **assumindo que tenhas o `Node Js` instalado**, instale as dependêcia chamando `$ npm install`;
+4. Ele vai fazer todo o trabalho para você, depois só vai precisar verificar sem deu algum erro, ou alguma dependência precisa de atenção sua.
+5. Feito isto, acessa o `packege.json`, neste arquivo você vai achar todos os scripts de como rodar a aplicação, lhe adianto já para que uses `$ yarn dev`, tiro e queda, e observe o `package.json`, para melhor conhecer as dependências que estão sendo usadas na aplicação.
+6. Desse jeito, sinta-se a vontade para auterar o que quiser, é público.
+7. Segue a minha imagem, não ficou muito legal, me visite mais tarde:
+![Layout](./competiImage.png)
