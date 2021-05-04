@@ -5,9 +5,10 @@ export default createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font: 400 14px 'Segoe UI', sans-serif;
 }
 
 body {
-    background: ${props => props.theme.colors.background};
+    background: ${props => props.theme.colors.primary};
 }
 `
